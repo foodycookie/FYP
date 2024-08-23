@@ -161,31 +161,31 @@ def AdminManageUserDataWindow(selectedResult):
     AddWindow('AdminManageUserDataWindow', window)
 
     frame1 = Frame(window)
-    frame1.pack(padx=5, fill=BOTH, expand=1)
+    frame1.pack(fill=BOTH, expand=1)
 
     frame2 = Frame(window)
-    frame2.pack(padx=5, fill=BOTH, expand=1)
+    frame2.pack(fill=BOTH, expand=1)
 
     frame3 = Frame(window)
-    frame3.pack(padx=5, fill=BOTH, expand=1)
+    frame3.pack(fill=BOTH, expand=1)
 
     frame4 = Frame(window)
-    frame4.pack(padx=5, fill=BOTH, expand=1)
+    frame4.pack(fill=BOTH, expand=1)
 
     frame5 = Frame(window)
-    frame5.pack(padx=5, fill=BOTH, expand=1)
+    frame5.pack(fill=BOTH, expand=1)
 
     frame6 = Frame(window)
-    frame6.pack(padx=5, fill=BOTH, expand=1)
+    frame6.pack(fill=BOTH, expand=1)
 
     frame7 = Frame(window)
-    frame7.pack(padx=5, fill=BOTH, expand=1)
+    frame7.pack(fill=BOTH, expand=1)
 
     frame8 = Frame(window)
-    frame8.pack(padx=5, fill=BOTH, expand=1)
+    frame8.pack(fill=BOTH, expand=1)
     
     frame9 = Frame(window)
-    frame9.pack(padx=5, fill=BOTH, expand=1)
+    frame9.pack(fill=BOTH, expand=1)
     
     Label(frame1, text="User ID").pack(side=LEFT, padx=10)
     Label(frame1, text=userID).pack(side=RIGHT, padx=10)
@@ -351,28 +351,28 @@ def AdminManageCompanionDataWindow(selectedResult):
     AddWindow('AdminManageCompanionDataWindow', window)
 
     frame1 = Frame(window)
-    frame1.pack(padx=5, fill=BOTH, expand=1)
+    frame1.pack(fill=BOTH, expand=1)
 
     frame2 = Frame(window)
-    frame2.pack(padx=5, fill=BOTH, expand=1)
+    frame2.pack(fill=BOTH, expand=1)
 
     frame3 = Frame(window)
-    frame3.pack(padx=5, fill=BOTH, expand=1)
+    frame3.pack(fill=BOTH, expand=1)
 
     frame4 = Frame(window)
-    frame4.pack(padx=5, fill=BOTH, expand=1)
+    frame4.pack(fill=BOTH, expand=1)
 
     frame5 = Frame(window)
-    frame5.pack(padx=5, fill=BOTH, expand=1)
+    frame5.pack(fill=BOTH, expand=1)
 
     frame6 = Frame(window)
-    frame6.pack(padx=5, fill=BOTH, expand=1)
+    frame6.pack(fill=BOTH, expand=1)
 
     frame7 = Frame(window)
-    frame7.pack(padx=5, fill=BOTH, expand=1)
+    frame7.pack(fill=BOTH, expand=1)
 
     frame8 = Frame(window)
-    frame8.pack(padx=5, fill=BOTH, expand=1)
+    frame8.pack(fill=BOTH, expand=1)
     
     Label(frame1, text="Companion ID").pack(side=LEFT, padx=10)
     Label(frame1, text=companionID).pack(side=RIGHT, padx=10)
@@ -557,37 +557,37 @@ def AdminManageCustomTaskDataWindow(selectedResult):
     AddWindow('AdminManageCustomTaskDataWindow', window)
 
     frame1 = Frame(window)
-    frame1.pack(padx=5, fill=BOTH, expand=1)
+    frame1.pack(fill=BOTH, expand=1)
 
     frame2 = Frame(window)
-    frame2.pack(padx=5, fill=BOTH, expand=1)
+    frame2.pack(fill=BOTH, expand=1)
 
     frame3 = Frame(window)
-    frame3.pack(padx=5, fill=BOTH, expand=1)
+    frame3.pack(fill=BOTH, expand=1)
 
     frame4 = Frame(window)
-    frame4.pack(padx=5, fill=BOTH, expand=1)
+    frame4.pack(fill=BOTH, expand=1)
 
     frame5 = Frame(window)
-    frame5.pack(padx=5, fill=BOTH, expand=1)
+    frame5.pack(fill=BOTH, expand=1)
 
     frame6 = Frame(window)
-    frame6.pack(padx=5, fill=BOTH, expand=1)
+    frame6.pack(fill=BOTH, expand=1)
 
     frame7 = Frame(window)
-    frame7.pack(padx=5, fill=BOTH, expand=1)
+    frame7.pack(fill=BOTH, expand=1)
 
     frame8 = Frame(window)
-    frame8.pack(padx=5, fill=BOTH, expand=1)
+    frame8.pack(fill=BOTH, expand=1)
     
     frame9 = Frame(window)
-    frame9.pack(padx=5, fill=BOTH, expand=1)
+    frame9.pack(fill=BOTH, expand=1)
     
     frame10 = Frame(window)
-    frame10.pack(padx=5, fill=BOTH, expand=1)
+    frame10.pack(fill=BOTH, expand=1)
     
     frame11 = Frame(window)
-    frame11.pack(padx=5, fill=BOTH, expand=1)
+    frame11.pack(fill=BOTH, expand=1)
     
     Label(frame1, text="User ID").pack(side=LEFT, padx=10)
     Label(frame1, text=userID).pack(side=RIGHT, padx=10)
@@ -741,34 +741,34 @@ def AdminManageDailyTaskDataWindow(selectedResult):
     AddWindow('AdminManageDailyTaskDataWindow', window)
 
     frame1 = Frame(window)
-    frame1.pack(padx=5, fill=BOTH, expand=1)
+    frame1.pack(fill=BOTH, expand=1)
 
     frame2 = Frame(window)
-    frame2.pack(padx=5, fill=BOTH, expand=1)
+    frame2.pack(fill=BOTH, expand=1)
 
     frame3 = Frame(window)
-    frame3.pack(padx=5, fill=BOTH, expand=1)
+    frame3.pack(fill=BOTH, expand=1)
 
     frame4 = Frame(window)
-    frame4.pack(padx=5, fill=BOTH, expand=1)
+    frame4.pack(fill=BOTH, expand=1)
 
     frame5 = Frame(window)
-    frame5.pack(padx=5, fill=BOTH, expand=1)
+    frame5.pack(fill=BOTH, expand=1)
 
     frame6 = Frame(window)
-    frame6.pack(padx=5, fill=BOTH, expand=1)
+    frame6.pack(fill=BOTH, expand=1)
 
     frame7 = Frame(window)
-    frame7.pack(padx=5, fill=BOTH, expand=1)
+    frame7.pack(fill=BOTH, expand=1)
 
     frame8 = Frame(window)
-    frame8.pack(padx=5, fill=BOTH, expand=1)
+    frame8.pack(fill=BOTH, expand=1)
     
     frame9 = Frame(window)
-    frame9.pack(padx=5, fill=BOTH, expand=1)
+    frame9.pack(fill=BOTH, expand=1)
     
     frame10 = Frame(window)
-    frame10.pack(padx=5, fill=BOTH, expand=1)
+    frame10.pack(fill=BOTH, expand=1)
     
     Label(frame1, text="User ID").pack(side=LEFT, padx=10)
     Label(frame1, text=userID).pack(side=RIGHT, padx=10)
@@ -901,40 +901,40 @@ def AdminManageCompletedCustomTaskDataWindow(selectedResult):
     AddWindow('AdminManageCompletedCustomTaskDataWindow', window)
 
     frame1 = Frame(window)
-    frame1.pack(padx=5, fill=BOTH, expand=1)
+    frame1.pack(fill=BOTH, expand=1)
 
     frame2 = Frame(window)
-    frame2.pack(padx=5, fill=BOTH, expand=1)
+    frame2.pack(fill=BOTH, expand=1)
 
     frame3 = Frame(window)
-    frame3.pack(padx=5, fill=BOTH, expand=1)
+    frame3.pack(fill=BOTH, expand=1)
 
     frame4 = Frame(window)
-    frame4.pack(padx=5, fill=BOTH, expand=1)
+    frame4.pack(fill=BOTH, expand=1)
 
     frame5 = Frame(window)
-    frame5.pack(padx=5, fill=BOTH, expand=1)
+    frame5.pack(fill=BOTH, expand=1)
 
     frame6 = Frame(window)
-    frame6.pack(padx=5, fill=BOTH, expand=1)
+    frame6.pack(fill=BOTH, expand=1)
 
     frame7 = Frame(window)
-    frame7.pack(padx=5, fill=BOTH, expand=1)
+    frame7.pack(fill=BOTH, expand=1)
 
     frame8 = Frame(window)
-    frame8.pack(padx=5, fill=BOTH, expand=1)
+    frame8.pack(fill=BOTH, expand=1)
     
     frame9 = Frame(window)
-    frame9.pack(padx=5, fill=BOTH, expand=1)
+    frame9.pack(fill=BOTH, expand=1)
     
     frame10 = Frame(window)
-    frame10.pack(padx=5, fill=BOTH, expand=1)
+    frame10.pack(fill=BOTH, expand=1)
     
     frame11 = Frame(window)
-    frame11.pack(padx=5, fill=BOTH, expand=1)
+    frame11.pack(fill=BOTH, expand=1)
     
     frame12 = Frame(window)
-    frame12.pack(padx=5, fill=BOTH, expand=1)
+    frame12.pack(fill=BOTH, expand=1)
     
     Label(frame1, text="User ID").pack(side=LEFT, padx=10)
     Label(frame1, text=userID).pack(side=RIGHT, padx=10)
@@ -1055,37 +1055,37 @@ def AdminManageCompletedDailyTaskDataWindow(selectedResult):
     AddWindow('AdminManageCompletedDailyTaskDataWindow', window)
 
     frame1 = Frame(window)
-    frame1.pack(padx=5, fill=BOTH, expand=1)
+    frame1.pack(fill=BOTH, expand=1)
 
     frame2 = Frame(window)
-    frame2.pack(padx=5, fill=BOTH, expand=1)
+    frame2.pack(fill=BOTH, expand=1)
 
     frame3 = Frame(window)
-    frame3.pack(padx=5, fill=BOTH, expand=1)
+    frame3.pack(fill=BOTH, expand=1)
 
     frame4 = Frame(window)
-    frame4.pack(padx=5, fill=BOTH, expand=1)
+    frame4.pack(fill=BOTH, expand=1)
 
     frame5 = Frame(window)
-    frame5.pack(padx=5, fill=BOTH, expand=1)
+    frame5.pack(fill=BOTH, expand=1)
 
     frame6 = Frame(window)
-    frame6.pack(padx=5, fill=BOTH, expand=1)
+    frame6.pack(fill=BOTH, expand=1)
 
     frame7 = Frame(window)
-    frame7.pack(padx=5, fill=BOTH, expand=1)
+    frame7.pack(fill=BOTH, expand=1)
 
     frame8 = Frame(window)
-    frame8.pack(padx=5, fill=BOTH, expand=1)
+    frame8.pack(fill=BOTH, expand=1)
     
     frame9 = Frame(window)
-    frame9.pack(padx=5, fill=BOTH, expand=1)
+    frame9.pack(fill=BOTH, expand=1)
     
     frame10 = Frame(window)
-    frame10.pack(padx=5, fill=BOTH, expand=1)
+    frame10.pack(fill=BOTH, expand=1)
     
     frame11 = Frame(window)
-    frame11.pack(padx=5, fill=BOTH, expand=1)
+    frame11.pack(fill=BOTH, expand=1)
     
     Label(frame1, text="User ID").pack(side=LEFT, padx=10)
     Label(frame1, text=userID).pack(side=RIGHT, padx=10)

@@ -328,13 +328,13 @@ def TaskWindow():
     friendshipPointNext = companionStat[3]
     friendshipPointMultiplier = companionStat[4]
     
-    companionImage = PhotoImage(file="assets/main/CatSpriteSheetIcon.png")
+    companionImage = PhotoImage(file="assets/CatSpriteSheetIcon.png")
     canvas.create_image(94.0, 94.0, image=companionImage)
     
-    friendshipBarImage = PhotoImage(file="assets/task/FriendshipBar.png")
+    friendshipBarImage = PhotoImage(file="assets/FriendshipBar.png")
     canvas.create_image(94.0, 261.0, image=friendshipBarImage)
     
-    heartShapeImage = PhotoImage(file="assets/task/HeartShape.png")
+    heartShapeImage = PhotoImage(file="assets/HeartShape.png")
     canvas.create_image(93.0, 203.0, image=heartShapeImage)
     
     canvas.create_text(88.0, 190.0, anchor="nw", text=level, fill="#000000")

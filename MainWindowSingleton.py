@@ -184,37 +184,37 @@ class MainWindow(Tk):
 
     def sleep1(self):
         self.clearSprite()
-        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/main/CatSpriteSheet.png", row=0, frameCount=4, width=32, height=32, scale=3, delay=1000)
+        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/CatSpriteSheet.png", row=0, frameCount=4, width=32, height=32, scale=3, delay=1000)
         self.currentAnimationID = self.after(4000, self.sleep2)
 
     def sleep2(self):
         self.clearSprite()
-        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/main/CatSpriteSheet.png", row=1, frameCount=7, width=32, height=32, scale=3, delay=1000)
+        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/CatSpriteSheet.png", row=1, frameCount=7, width=32, height=32, scale=3, delay=1000)
         self.currentAnimationID = self.after(7000, self.sleep3)
 
     def sleep3(self):
         self.clearSprite()
-        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/main/CatSpriteSheet.png", row=2, frameCount=3, width=32, height=32, scale=3, delay=1000)
+        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/CatSpriteSheet.png", row=2, frameCount=3, width=32, height=32, scale=3, delay=1000)
         self.currentAnimationID = self.after(3000, self.idle1)
         
     def idle1(self):
         self.clearSprite()
-        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/main/CatSpriteSheet.png", row=3, frameCount=4, width=32, height=32, scale=3, delay=500)
+        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/CatSpriteSheet.png", row=3, frameCount=4, width=32, height=32, scale=3, delay=500)
         self.currentAnimationID = self.after(2000, self.idle2)
         
     def idle2(self):
         self.clearSprite()
-        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/main/CatSpriteSheet.png", row=4, frameCount=8, width=32, height=32, scale=3, delay=500)
+        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/CatSpriteSheet.png", row=4, frameCount=8, width=32, height=32, scale=3, delay=500)
         self.currentAnimationID = self.after(4000, self.idle1)
         
     def happy(self):
         self.clearSprite()
-        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/main/CatSpriteSheet.png", row=5, frameCount=8, width=32, height=32, scale=3, delay=500)
+        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/CatSpriteSheet.png", row=5, frameCount=8, width=32, height=32, scale=3, delay=500)
         self.currentAnimationID = self.after(20000, self.idle1)
         
     def angry(self):
         self.clearSprite()
-        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/main/CatSpriteSheet.png", row=6, frameCount=7, width=32, height=32, scale=3, delay=500)
+        self.spriteAnimator = SpriteAnimator(self, spriteSheetPath="assets/CatSpriteSheet.png", row=6, frameCount=7, width=32, height=32, scale=3, delay=500)
         self.currentAnimationID = self.after(17500, self.idle2)
         
     def ChangeAnimation(self, animation):
