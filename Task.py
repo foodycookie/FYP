@@ -349,6 +349,9 @@ def TaskWindow():
            
     showDailyTaskButton = Button(window, text="Show Daily Tasks", command=ShowDailyTask)
     showDailyTaskButton.place(x=191.0, y=40.0, width=150.0, height=30.0)
+    
+    searchLabel = Label(window, text="Enter task name to search... (Double click a task to see task details!)", bg="white")
+    searchLabel.place(x=511.0, y=45.0)
 
     customTaskSearchBoxFrame = Frame(window)
     customTaskSearchBoxFrame.place(x=191.0,  y=70.0, width=720.0, height=50.0)

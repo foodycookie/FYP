@@ -267,6 +267,8 @@ def RegisterWindow():
     window.mainloop()
     
 def ForgetPasswordWindow():
+    global birthdate
+    
     def DisableButton():
         birthdateButton.config(state=DISABLED)
         confirmButton.config(state=DISABLED)

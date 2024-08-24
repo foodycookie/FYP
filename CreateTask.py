@@ -7,11 +7,13 @@ from MainWindowSingleton import *
 
 def CreateTaskWindow():
     def DisableButton():
+        typeDropdown.configure(state="disabled")        
         dueDateButton.config(state=DISABLED)
         confirmButton.config(state=DISABLED)
         backButton.config(state=DISABLED)
         
     def EnableButton():
+        typeDropdown.configure(state="active")             
         dueDateButton.config(state=NORMAL)
         confirmButton.config(state=NORMAL)
         backButton.config(state=NORMAL)
@@ -36,6 +38,7 @@ def CreateTaskWindow():
             EnableButton()
             top.destroy()
 
+        typeDropdown.configure(state="disabled")  
         dueDateButton.config(state=DISABLED)
         confirmButton.config(state=DISABLED)
         
@@ -63,10 +66,11 @@ def CreateTaskWindow():
             DisableButton()
             messagebox.showerror("Error", "All fields are required.")
             EnableButton()
+            if typeVariable.get() == "Daily":
+                dueDateButton.config(state=DISABLED)
             return
         
         if typeVariable.get() == "Custom":
-            
             if dueDateButton.cget("text") == "Due Date":
                 DisableButton()
                 messagebox.showerror("Error", "All fields are required.")

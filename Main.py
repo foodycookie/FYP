@@ -69,7 +69,11 @@ def onLoginSuccess(currentUserID):
         app.deiconify()
     
 def Main():
+    print("Initializing Database...")
+    
     InitializingDatabase()
+    
+    print("Please give me a second...")
     
     app = Singleton.getMainWindowInstance()
     

@@ -35,6 +35,8 @@ def TaskHistoryGraphWindow():
         return completedTaskNumber
 
     def Graph(startDate):
+        print("Creating graph...")
+        
         completedTaskNumber = GetCompletedTaskNumber(startDate)
         
         datesNumbers = [startDate + timedelta(days=i) for i in range(7)]

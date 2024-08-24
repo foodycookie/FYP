@@ -16,3 +16,6 @@ I did not upload the libraries folder because it was too big, idk if i should or
 
 Credit to Bow.Pixel for the sprite: https://bowpixel.itch.io/cat-50-animations
 Credit to all the libraries i used.
+
+ignore this:
+python -m PyInstaller --onefile --add-data "assets;assests" --add-data "library;library" --hidden-import "babel.numbers" Main.py
