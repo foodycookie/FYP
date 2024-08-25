@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 from MainWindowSingleton import *
 from WindowManager import *
-import library.pandas as pd
+import pandas as pd
 
 def TaskHistoryWindow():
     def DisableButton():

@@ -3,7 +3,7 @@ import textwrap
 import hashlib
 import sys
 from WindowManager import *
-from library.PIL import Image, ImageTk
+from PIL import Image, ImageTk
 
 def hashingString(string):
     return hashlib.sha256(string.encode()).hexdigest()

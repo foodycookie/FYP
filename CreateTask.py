@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 from datetime import date, datetime
-from library.tkcalendar import *
+from tkcalendar import *
 from Database import *
 from MainWindowSingleton import *
 

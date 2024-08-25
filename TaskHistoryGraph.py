@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 import sqlite3
 from MainWindowSingleton import *
 from WindowManager import *
-import library.matplotlib.pyplot as plt
-from library.matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 def TaskHistoryGraphWindow():    
     def GetCompletedTaskNumber(startDate):
